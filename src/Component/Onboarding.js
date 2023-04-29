@@ -41,13 +41,13 @@ const Onboarding = () => {
             <div className="flex-col  text-center items-center  ">
               <img src="/padlock.png" className="h-7 ml-3 dark:hidden" />
               <CheckCircleIcon class="h-7 hidden dark:block dark:ml-3" />
-              <h4>Account</h4>
+              <h4 className="dark:text-blue-500">Account</h4>
             </div>
 
             <div className="flex-col  items-center ">
               <img src="/user.png" className="h-7 ml-3 dark:hidden" />
               <img src="/2.png" class="h-7 hidden dark:block dark:ml-3" />
-              <h4>Personal</h4>
+              <h4 className="dark:text-blue-500"> Personal</h4>
             </div>
 
             <div className="flex-col  items-center ">
